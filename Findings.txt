@@ -1,0 +1,8 @@
+1. We do not need to scaled values in case of decision tree regressor
+2. max_depth could control overfitting in dt regressor.
+3. try grid_search or randomize search for cross validation and finding
+best parameters
+4. Dt could perform well on small datasets
+5. You can train regression model with categorical vlaues
+but if we have ordinal categories we should use labelencoder other wise
+one hot encoding
